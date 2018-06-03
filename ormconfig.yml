@@ -1,0 +1,10 @@
+default:
+  type: mongodb
+  host: localhost
+  port: 27017
+  database: portfolio
+  entities:
+    - dist/entity/**/*.js
+  logging: true
+  synchronize: true
+  cache: true
